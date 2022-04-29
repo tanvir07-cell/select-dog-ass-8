@@ -3,7 +3,7 @@ import "./QNA.css";
 
 const QNA = () => {
   return (
-    <div>
+    <div className="qna">
       <h1>How react.js work ? </h1>
       <p>
         React Works Component base system, but similar in javascript Working

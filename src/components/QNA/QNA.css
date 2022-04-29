@@ -1,0 +1,12 @@
+.qna {
+  background: #333;
+}
+
+.qna h1,
+.qna h2,
+.qna p {
+  background: linear-gradient(#c39ea0, #fa255e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
