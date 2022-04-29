@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./Dog.css";
 
+// font awesome icon:
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+
 const Dog = (props) => {
   //   object destructuring:
 
@@ -17,7 +21,8 @@ const Dog = (props) => {
       </div>
 
       <button className="btn" onClick={() => handleClick(props.dog)}>
-        Purchase Dog
+        <p>Purchase Dog</p>
+        <FontAwesomeIcon icon={faBagShopping} />
       </button>
     </div>
   );
