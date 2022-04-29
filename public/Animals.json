@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+
+    "name": "Jinku",
+
+    "price": 430,
+
+    "img": "https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?w=740&t=st=1651204944~exp=1651205544~hmac=b6cdac961d2541f30999c4c601beae71f18baaa8e49ca720be44b4f864860a4b"
+  },
+  {
+    "id": 2,
+
+    "name": "Rinku",
+
+    "price": 630,
+
+    "img": "https://img.freepik.com/free-photo/proud-white-dog-sunlight-close-up-happy-west-highland-white-terrier-dog_606603-19.jpg?w=740"
+  },
+  {
+    "id": 3,
+
+    "name": "Tinku",
+    "price": 245,
+    "img": "https://img.freepik.com/free-photo/cute-puppies-pomeranian-mixed-breed-pekingese-dog-run-grass-with-happiness_34266-1082.jpg?w=740"
+  },
+  {
+    "id": 4,
+
+    "name": "Minku",
+
+    "price": 629,
+
+    "img": "https://img.freepik.com/free-photo/sitting-beige-pug-dog-looking-camera-isolated-white_191971-7624.jpg?w=740"
+  },
+  {
+    "id": 5,
+
+    "name": "Pinku",
+    "price": 980,
+
+    "img": "https://img.freepik.com/free-photo/selective-focus-shot-adorable-german-shepherd-outdoors-during-daylight_181624-36837.jpg?t=st=1651204709~exp=1651205309~hmac=662a3233eeb3dc361bb9d9f66b1d92264e1229878a0a5c347933102ecf52b954&w=740"
+  },
+  {
+    "id": 6,
+
+    "name": "Sinku",
+
+    "price": 438,
+
+    "img": "https://img.freepik.com/free-photo/beagles-puppies-looking-something_1150-18193.jpg?t=st=1651204709~exp=1651205309~hmac=95a4e159c66b1cfcc003f9619755ea07fdeeb65208bbb8e37d01386d8b3f650f&w=740"
+  },
+  {
+    "id": 7,
+
+    "name": "Boltu",
+
+    "price": 276,
+
+    "img": "https://img.freepik.com/free-photo/run-maltipu-little-dog-is-posing_155003-22631.jpg?t=st=1651204709~exp=1651205309~hmac=5e829538c362471b64d8a395fb1959c03e3650e60a8216e3c323e20ec1b0f62f&w=740"
+  },
+  {
+    "id": 8,
+
+    "name": "Moltu",
+
+    "price": 619,
+
+    "img": "https://img.freepik.com/free-photo/cute-dog-stones-coast_175682-29288.jpg?w=740"
+  },
+  {
+    "id": 9,
+
+    "name": "Soltu",
+
+    "price": 860,
+
+    "img": "https://img.freepik.com/free-photo/closeup-shot-young-black-labrador-retriever-laying-ground_181624-53398.jpg?t=st=1651204709~exp=1651205309~hmac=eb6a39f9fc55bfe0b343560b40fae3fc2a9a33dfe1a09c142debe6d6c9262414&w=740"
+  }
+]

@@ -1,0 +1,51 @@
+.select-animal {
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+}
+.select-animal--name {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.display-dog {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.random-btn {
+  width: 100%;
+  border: none;
+  margin-top: 5rem;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  color: #333;
+  letter-spacing: 0.1rem;
+  background: linear-gradient(#c39ea0, #fa255e);
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .display-dog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
+
+.display-dog img {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}

@@ -1,0 +1,78 @@
+.dog {
+  border: 1px solid #95a0a7;
+  width: 300px;
+  height: 508px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 2rem auto;
+
+  position: relative;
+}
+.dog img {
+  height: 286px;
+  width: 286px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 8px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.dog-description {
+  margin-top: 1rem;
+  margin-left: 7px;
+
+  /* for linear-gradient text */
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.dog-description p {
+  margin-top: 1rem;
+  /* for linear gradient text */
+  background: linear-gradient(#c39ea0, #fa255e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.dog .btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  background: linear-gradient(#c39ea0, #fa255e);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media (max-width: 37.5rem) {
+  .dog {
+    margin: 2rem 0;
+    width: 100%;
+  }
+  .dog img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .dog-description h1 {
+    font-size: 1rem;
+  }
+}

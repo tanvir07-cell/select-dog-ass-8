@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: linear-gradient(to left, #c39ea0, #0000, #fa255e);
+  height: 5rem;
+}
+
+.brand {
+  font-size: 1.1rem;
+  background: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif),
+    linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 800;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+}
+.header ul li a {
+  text-decoration: none;
+  margin: 2rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.header ul li a:hover {
+  color: #fa255e;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
